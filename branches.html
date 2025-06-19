@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Church Branches | Jesus Gospel Power Ministries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ECF0F1;
+            color: #0b0c0d;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #2936ce;
+            color: white;
+            padding: 30px 0 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .header a {
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 18px;
+            border-radius: 30px;
+            transition: background 0.2s;
+        }
+        .header a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .branches-list {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .branch-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(41,54,206,0.07);
+            margin-bottom: 40px;
+            padding: 32px 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            align-items: flex-start;
+        }
+        .branch-info {
+            flex: 2;
+            min-width: 260px;
+        }
+        .branch-info h2 {
+            color: #2936ce;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .branch-info p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .leaders {
+            margin: 20px 0;
+        }
+        .leaders-title {
+            color: #62acf7;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .leaders-list {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .leader {
+            text-align: center;
+            min-width: 120px;
+        }
+        .leader img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #2936ce;
+            margin-bottom: 8px;
+        }
+        .leader h4 {
+            margin: 0 0 4px 0;
+            font-size: 1rem;
+            color: #0b0c0d;
+        }
+        .leader p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .service-times {
+            margin: 18px 0 0 0;
+            padding: 0;
+            list-style: none;
+        }
+        .service-times li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .service-times li::before {
+            content: '\2022';
+            color: #2936ce;
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        .branch-map {
+            flex: 1;
+            min-width: 260px;
+            margin-top: 10px;
+        }
+        .branch-map iframe {
+            width: 100%;
+            height: 220px;
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(41,54,206,0.07);
+        }
+        @media (max-width: 800px) {
+            .branch-card {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .branch-map {
+                margin-top: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="3churchindex.html" aria-label="Back to main page"><i class="fas fa-arrow-left"></i> Back</a>
+        <h1>All Church Branches</h1>
+    </div>
+    <div class="branches-list">
+        <!-- Main Church -->
+        <div class="branch-card">
+            <div class="branch-info">
+                <h2>Main Church</h2>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Narok, Kenya</p>
+                <div class="leaders">
+                    <div class="leaders-title">Leaders</div>
+                    <div class="leaders-list">
+                        <div class="leader">
+                            <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                            <h4>Bishop Augustine Rugutt</h4>
+                            <p>Senior Pastor & Founder</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/MKiptgp.png" alt="Rev Dan Chebyegon - Associate Pastor">
+                            <h4>Rev Dan Chebyegon</h4>
+                            <p>Associate Pastor</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                            <h4>Pastor Passiany</h4>
+                            <p>Women's Ministry Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="service-times">
+                    <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                    <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                    <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                </ul>
+            </div>
+            <div class="branch-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" allowfullscreen loading="lazy" title="Main Church Location Map"></iframe>
+            </div>
+        </div>
+        <!-- Nairobi Branch -->
+        <div class="branch-card">
+            <div class="branch-info">
+                <h2>Nairobi Branch</h2>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Nairobi, Kenya</p>
+                <div class="leaders">
+                    <div class="leaders-title">Leaders</div>
+                    <div class="leaders-list">
+                        <div class="leader">
+                            <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                            <h4>Bishop Augustine Rugutt</h4>
+                            <p>Senior Pastor & Founder</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/MKiptgp.png" alt="Pastor Dan - Associate Pastor">
+                            <h4>Pastor Dan</h4>
+                            <p>Associate Pastor</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                            <h4>Pastor Passiany</h4>
+                            <p>Women's Ministry Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="service-times">
+                    <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                    <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                    <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                </ul>
+            </div>
+            <div class="branch-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" allowfullscreen loading="lazy" title="Nairobi Branch Location Map"></iframe>
+            </div>
+        </div>
+        <!-- Kisumu Branch -->
+        <div class="branch-card">
+            <div class="branch-info">
+                <h2>Kisumu Branch</h2>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Kisumu, Kenya</p>
+                <div class="leaders">
+                    <div class="leaders-title">Leaders</div>
+                    <div class="leaders-list">
+                        <div class="leader">
+                            <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                            <h4>Bishop Augustine Rugutt</h4>
+                            <p>Senior Pastor & Founder</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/MKiptgp.png" alt="Pastor Dan - Associate Pastor">
+                            <h4>Pastor Dan</h4>
+                            <p>Associate Pastor</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                            <h4>Pastor Passiany</h4>
+                            <p>Women's Ministry Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="service-times">
+                    <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                    <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                    <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                </ul>
+            </div>
+            <div class="branch-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" allowfullscreen loading="lazy" title="Kisumu Branch Location Map"></iframe>
+            </div>
+        </div>
+        <!-- Mombasa Branch -->
+        <div class="branch-card">
+            <div class="branch-info">
+                <h2>Mombasa Branch</h2>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mombasa, Kenya</p>
+                <div class="leaders">
+                    <div class="leaders-title">Leaders</div>
+                    <div class="leaders-list">
+                        <div class="leader">
+                            <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                            <h4>Bishop Augustine Rugutt</h4>
+                            <p>Senior Pastor & Founder</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/MKiptgp.png" alt="Pastor Dan - Associate Pastor">
+                            <h4>Pastor Dan</h4>
+                            <p>Associate Pastor</p>
+                        </div>
+                        <div class="leader">
+                            <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                            <h4>Pastor Passiany</h4>
+                            <p>Women's Ministry Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="service-times">
+                    <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                    <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                    <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                </ul>
+            </div>
+            <div class="branch-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" allowfullscreen loading="lazy" title="Mombasa Branch Location Map"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

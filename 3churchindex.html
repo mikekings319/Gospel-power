@@ -1,0 +1,2569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Gospel Power Ministries | Church</title>
+    <meta name="description" content="Join Jesus Gospel Power for life-changing worship, powerful sermons, and a community of believers. Watch our live services and begin your spiritual journey today!">
+    <meta name="keywords" content="church, gospel, Jesus, salvation, worship, bible study, Christian, live service, prayer, faith, healing, deliverance, Holy Spirit">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Jesus Gospel Power Ministries | Church">
+    <meta property="og:description" content="Join Jesus Gospel Power for life-changing worship, powerful sermons, and a community of believers. Watch our live services and begin your spiritual journey today!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jesusgospelpowerministries.com">
+    <meta property="og:image" content="https://i.imgur.com/GGxvxc5.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jesus Gospel Power Ministries | Church">
+    <meta name="twitter:description" content="Join Jesus Gospel Power for life-changing worship, powerful sermons, and a community of believers. Watch our live services and begin your spiritual journey today!">
+    <meta name="twitter:image" content="https://i.imgur.com/GGxvxc5.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #2936ce;
+            --secondary: #62acf7;
+            --accent: #155047;
+            --light: #ECF0F1;
+            --dark: #0b0c0d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--dark);
+            background-color: white;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: 2px solid var(--primary);
+        }
+        
+        .btn:hover {
+            background-color: transparent;
+            color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.2);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        
+        .btn-outline:hover {
+            background-color: white;
+            color: var(--primary);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 100px 0;
+        }
+        
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: all 0.3s ease;
+            background-color: transparent;
+        }
+        
+        header.scrolled {
+            background-color: transparent;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 900;
+            color: var(--primary);
+        }
+        
+        .logo span {
+            color: var(--secondary);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            font-weight: 600;
+            position: relative;
+            color: var(--secondary);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .mobile-menu-btn,
+        .mobile-menu-close {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--secondary);
+            cursor: pointer;
+            padding: 5px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+            background: linear-gradient(to right, rgba(78, 115, 167, 0.9), rgba(44, 62, 80, 0.7)), url('https://i.imgur.com/DWHA7vQ.png') no-repeat center center/cover;
+        }
+        
+        .hero-content {
+            width: 50%;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .hero-visual {
+            position: absolute;
+            right: -100px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60%;
+            height: 80%;
+        }
+        
+        #hero-3d {
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* About Section */
+        .about {
+            background-color: var(--light);
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .about-text h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: var(--secondary);
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .about-features {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .about-image {
+            flex: 1;
+            position: relative;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+         /* Live Service Section */
+        .live-service {
+            padding: 5rem 5%;
+            background-color: white;
+            text-align: center;
+        }
+        
+        .live-service h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .live-container {
+            background-color: var(--light);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .live-iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        
+        .service-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .info-card {
+            flex: 1;
+            min-width: 250px;
+            background-color: var(--primary);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+        }
+        
+        .info-card i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+        
+        /* Services */
+        .services {
+            text-align: center;
+        }
+        
+        .section-title {
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            font-size: 42px;
+            color: var(--secondary);
+        }
+        
+        .section-title p {
+            max-width: 700px;
+            margin: 0 auto;
+            color: #666;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .service-card:hover .service-image img {
+            transform: scale(1.1);
+        }
+        
+        .service-content {
+            padding: 25px;
+        }
+        
+        .service-content h3 {
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        /* Branches Section */
+.branches {
+    background-color: var(--light);
+    padding: 100px 0;
+}
+
+.branches-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.branch-cards {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.branch-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.branch-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.branch-card.active {
+    border-left: 4px solid var(--primary);
+    background-color: rgba(41, 54, 206, 0.05);
+}
+
+.branch-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.branch-icon i {
+    font-size: 20px;
+}
+
+.branch-card h3 {
+    color: var(--secondary);
+    margin-bottom: 5px;
+}
+
+.branch-card p {
+    color: #666;
+}
+
+.branch-details {
+    flex: 2;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.branch-info {
+    display: none;
+}
+
+.branch-info.active {
+    display: block;
+}
+
+.branch-header h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.branch-header p {
+    color: #666;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.branch-leaders {
+    margin: 40px 0;
+}
+
+.branch-leaders h4 {
+    color: var(--secondary);
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.leaders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.leader-card {
+    text-align: center;
+}
+
+.leader-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary);
+    margin-bottom: 15px;
+}
+
+.leader-card h5 {
+    color: var(--dark);
+    margin-bottom: 5px;
+}
+
+.leader-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.branch-services {
+    margin: 40px 0;
+}
+
+.branch-services h4 {
+    color: var(--secondary);
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.service-times {
+    list-style: none;
+}
+
+.service-times li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.service-times li::before {
+    content: '•';
+    color: var(--primary);
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.branch-map {
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .branches-container {
+        flex-direction: column;
+    }
+    
+    .branch-cards {
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .branch-card {
+        flex: 1;
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .branch-cards {
+        flex-direction: column;
+    }
+    
+    .leaders-grid {
+        grid-template-columns: 1fr;
+    }
+}
+        /* Portfolio */
+        .portfolio {
+            background-color: var(--light);
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        
+        .portfolio-item {
+            position: relative;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .portfolio-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .portfolio-item:hover .portfolio-image img {
+            transform: scale(1.05);
+        }
+        
+        .portfolio-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            color: white;
+            transform: translateY(100px);
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        .portfolio-item:hover .portfolio-overlay {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .portfolio-overlay h3 {
+            margin-bottom: 10px;
+        }
+          /* Calendar Section */
+        #calendar {
+            background-color: white;
+        }
+        
+        .calendar-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .calendar-card {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .calendar-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .calendar-card h3 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .month {
+            margin-bottom: 20px;
+        }
+        
+        .month-title {
+            font-weight: bold;
+            color: var(--dark);
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .crop-list {
+            list-style-type: none;
+        }
+        
+        .crop-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            color: #666;
+        }
+        
+        .crop-list li::before {
+            content: '✓';
+            color: var(--primary);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        /* Parallax Section */
+        .parallax {
+            height: 500px;
+            background: url('https://i.imgur.com/DWHA7vQ.png') fixed center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .parallax::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(44, 62, 80, 0.8);
+        }
+        
+        .parallax-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        
+        .parallax h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            text-align: center;
+        }
+        
+        .testimonials-slider {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .testimonial {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+        
+        .client-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 3px solid var(--primary);
+        }
+        
+        .testimonial p {
+            font-style: italic;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .client-name {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .client-title {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        /* CTA */
+        .cta {
+            background: linear-gradient(135deg, var(--primary), #C0392B);
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .cta h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        .cta-subtitle {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .cta-contact-info {
+            margin-bottom: 40px;
+        }
+        
+        .phone-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        
+        .phone-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .phone-link i {
+            font-size: 20px;
+        }
+        
+        .contact-form {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: white;
+            color: var(--primary);
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .submit-btn i {
+            font-size: 16px;
+        }
+        
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #f5f5f7;
+            padding: 80px 0 30px;
+            position: relative;
+        }
+        
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.5));
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-column h3 {
+            font-size: 20px;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 15px;
+            color: #fff;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: #fff;
+        }
+        
+        .footer-description {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 15px;
+        }
+        
+        .footer-column ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #fff;
+            transform: translateX(5px);
+        }
+        
+        .footer-column ul li a i {
+            font-size: 12px;
+            color: #fff;
+        }
+        
+        .contact-info li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+        }
+        
+        .contact-info li i {
+            color: #fff;
+            font-size: 18px;
+            width: 20px;
+        }
+        
+        .contact-info li a {
+            color: rgba(255, 255, 255, 0.8);
+            transition: color 0.3s ease;
+        }
+        
+        .contact-info li a:hover {
+            color: #fff;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+        
+        .footer-bottom {
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .copyright p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #fff;
+        }
+        
+        /* Responsive */
+        @media (max-width: 991px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            /* Header & Navigation */
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .mobile-menu-btn,
+            .mobile-menu-close {
+                display: block;
+            }
+            
+            .mobile-menu-close {
+                display: none;
+            }
+            
+            .mobile-menu-close.active {
+                display: block;
+            }
+            
+            .mobile-menu-btn.active {
+                display: none;
+            }
+            
+            .nav-links a {
+                padding: 12px 0;
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+            }
+            
+            .nav-links a.btn {
+                margin: 10px 0;
+                width: 80%;
+            }
+
+            /* Hero Section */
+            .hero {
+                height: auto;
+                min-height: 100vh;
+                padding: 120px 0 60px;
+            }
+
+            .hero-content {
+                width: 100%;
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .hero p {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+
+            .btn-group {
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            .hero-visual {
+                display: none;
+            }
+
+            /* About Section */
+            .about-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .about-text {
+                text-align: center;
+            }
+
+            .about-text h2 {
+                font-size: 32px;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .about-image {
+                width: 100%;
+                height: 400px;
+            }
+
+            /* Services Section */
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .service-card {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            /* Portfolio Section */
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .portfolio-item {
+                height: 300px;
+            }
+
+            /* Live Service Section */
+            .live-container {
+                padding: 20px;
+            }
+
+            .live-iframe {
+                height: 300px;
+            }
+
+            .service-info {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .info-card {
+                width: 100%;
+            }
+
+            /* Calendar Section */
+            .calendar-container {
+                grid-template-columns: 1fr;
+            }
+
+            .calendar-card {
+                padding: 20px;
+            }
+
+            /* Testimonials */
+            .testimonial {
+                padding: 30px 20px;
+            }
+
+            .client-img {
+                width: 60px;
+                height: 60px;
+            }
+
+            /* CTA Section */
+            .cta {
+                padding: 60px 0;
+            }
+
+            .cta h2 {
+                font-size: 32px;
+            }
+
+            .cta-subtitle {
+                font-size: 18px;
+            }
+
+            .contact-form {
+                padding: 30px 20px;
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            /* Footer */
+            footer {
+                padding: 60px 0 20px;
+            }
+
+            .footer-content {
+                gap: 30px;
+            }
+
+            .footer-column {
+                text-align: center;
+            }
+
+            .footer-column h3::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .contact-info li {
+                justify-content: center;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            .footer-links {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 576px) {
+            /* Header */
+            .logo {
+                font-size: 24px;
+            }
+
+            /* Hero Section */
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            /* About Section */
+            .about-text h2 {
+                font-size: 28px;
+            }
+
+            .about-image {
+                height: 300px;
+            }
+
+            /* Services & Portfolio */
+            .section-title h2 {
+                font-size: 28px;
+            }
+
+            /* Live Service */
+            .live-iframe {
+                height: 250px;
+            }
+
+            /* CTA */
+            .cta h2 {
+                font-size: 28px;
+            }
+
+            .phone-link {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        /* Additional Mobile Optimizations */
+        @media (hover: none) {
+            .btn:hover,
+            .nav-links a:hover,
+            .social-links a:hover {
+                transform: none;
+            }
+
+            .service-card:hover,
+            .portfolio-item:hover {
+                transform: none;
+            }
+        }
+
+        /* Fix for iOS Safari 100vh issue */
+        @supports (-webkit-touch-callout: none) {
+            .hero {
+                min-height: -webkit-fill-available;
+            }
+        }
+
+        /* Admin Floating Button Styles */
+        .admin-float-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #2936ce;
+            color: rgb(11, 10, 10);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            z-index: 9999;
+            transition: all 0.3s ease;
+        }
+        
+        .admin-float-btn:hover {
+            background-color: #1a2391;
+            transform: scale(1.1);
+        }
+        
+        .admin-float-btn i {
+            font-size: 24px;
+        }
+        
+        /* Admin Panel Styles */
+        .admin-panel {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            width: 400px;
+            max-width: 90%;
+            max-height: 80vh;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+            z-index: 9998;
+            transform: translateY(20px);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .admin-panel.active {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .admin-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #2936ce;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .admin-panel-header h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .close-panel {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+        }
+        
+        .admin-tabs {
+            display: flex;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab-btn.active {
+            color: #2936ce;
+            border-bottom: 3px solid #2936ce;
+        }
+        
+        .admin-panel-body {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .admin-panel-body .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .admin-panel-body label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .admin-panel-body input,
+        .admin-panel-body textarea,
+        .admin-panel-body select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        
+        .admin-panel-body textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        #updateStream,
+        #addEvent,
+        #addAnnouncement {
+            width: 100%;
+            padding: 12px;
+            background-color: #2936ce;
+            color: rgb(10, 10, 10);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        #updateStream:hover,
+        #addEvent:hover,
+        #addAnnouncement:hover {
+            background-color: #1a2391;
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid #2936ce;
+            color: #2936ce;
+        }
+        
+        .btn-outline:hover {
+            background-color: #f5f5f5;
+        }
+        
+        @media (max-width: 500px) {
+            .admin-panel {
+                width: 90%;
+                right: 5%;
+            }
+            
+            .admin-float-btn {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav aria-label="Main Navigation">
+                <a href="#" class="logo">Jesus Gospel<span>Power Ministries</span></a>
+                <div class="nav-links" id="navLinks">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Ministries</a>
+                    <a href="#portfolio">Leaders</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#contact" class="btn">New Believers</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+                <button class="mobile-menu-close" id="mobileMenuClose" style="display: none;" aria-label="Close mobile menu">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience The Power of Jesus Christ</h1>
+                <p>Join our growing community of believers and experience transformational worship, powerful teachings, and life-changing encounters with God.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn">New Believers</a>
+                    <a href="#portfolio" class="btn btn-outline">View Our Church</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Welcome to Jesus Gospel Power</h2>
+                    <p>Jesus Gospel Power is a vibrant, spirit-filled ministry dedicated to spreading the good news of Jesus Christ to all nations. Founded in 2001,By Dr.Bishop Augustine Rugut we have grown from a small Bible study group to a thriving church impacting thousands of lives.</p>
+                    <p>We believe in the authority of Scripture, the power of prayer, and the gifts of the Spirit operating in the church today.</p><br>
+                    <p>Whether you're new to faith or have been walking with Christ for years, we invite you to join us in worship, fellowship, and service. Together, we can make a difference in our community and beyond.</p><br>
+                    <b>Vision</b><br>
+                    <p>The purpose of Jesus Gospel Power Ministries Church is to preach the gospel of Jesus Christ and manifest the power of God through our lives for glory and honor of God</p><br>
+                    <b>Mission</b><br>
+                    <p>It is a ministry of reconciliation - we reconcile the world to God. - 2nd Corinthians 5:17-18 we equip people so as to usher them into their divine purpose and destiny - Isaiah 26:2</p><br>
+                    <b>Core Values</b><br>
+                    <ul>
+                        <li>Commitment</li>
+                        <li>Discipline</li>
+                        <li>Wisdom</li>
+                    </ul>
+                    <a href="#contact" class="btn">Learn More About Us</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://i.imgur.com/GGxvxc5.png" alt="Congregation worshiping at Jesus Gospel Power Ministries church service">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Live Service Section -->
+    <section class="live-service" id="live">
+        <div class="container">
+            <h2>Join Our Live Service</h2>
+            <p>Experience the power of God through our live worship services and anointed preaching.</p>
+            
+            <div class="live-container">
+                <iframe id="serviceStream" class="live-iframe" src="https://www.youtube.com/embed/live_stream?channel=UC_yP2DpIgs5Y1uWC0T03Chw" allowfullscreen title="Live Service Stream"></iframe>
+                <h3>Sunday Service - 10:00 AM</h3>
+                <p>Current Message: "The Transforming Power of the Gospel"</p>
+                
+                <div class="service-info">
+                    <div class="info-card">
+                        <i class="fas fa-praying-hands" aria-hidden="true"></i>
+                        <h4>Prayer Line</h4>
+                        <p>Monday-Friday: 7:00 AM - 8:00 AM</p>
+                        <p>Call: (555) 123-4567</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-bible" aria-hidden="true"></i>
+                        <h4>Bible Study</h4>
+                        <p>Wednesday: 7:00 PM - 8:30 PM</p>
+                        <p>Zoom ID: 123 456 7890</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                        <h4>Youth Service</h4>
+                        <p>Friday: 7:00 PM - 9:00 PM</p>
+                        <p>@ Church Fellowship Hall</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Ministries</h2>
+                <p>Get connected and grow in your faith through our various ministries</p><br>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/888lixH.png" alt="Outreach Ministry - community service and evangelism">
+                    </div>
+                    <div class="service-content">
+                        <h3>Outreach Ministry</h3>
+                        <p>Sharing the love of Christ through community service, evangelism, and missions.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/j19J1C0.png" alt="Worship Team - leading praise and worship">
+                    </div>
+                    <div class="service-content">
+                        <h3>Worship Team</h3>
+                        <p>Leading the congregation into God's presence through anointed praise and worship.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/CwVgxm5.png" alt="Children's Ministry - teaching kids about Jesus">
+                    </div>
+                    <div class="service-content">
+                        <h3>Children's Ministry</h3>
+                        <p>Teaching kids about Jesus in fun, engaging ways tailored for their age group.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/O8n1ElO.png" alt="Youth Ministry - empowering the next generation">
+                    </div>
+                    <div class="service-content">
+                        <h3>Youth Ministry</h3>
+                        <p>Empowering the next generation to live radically for Christ in today's world.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/FSHTHc4.png" alt="Intercessory Prayer - fervent prayer for church and community">
+                    </div>
+                    <div class="service-content">
+                        <h3>Intercessory Prayer</h3>
+                        <p>Standing in the gap through fervent prayer for the church and our community.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/bVskjLK.png" alt="Radio Ministry - spreading the word of God">
+                    </div>
+                    <div class="service-content">
+                        <h3>Radio Ministry</h3>
+                        <p>Spreading the word of God far and wide through our radio outreach.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://i.imgur.com/2uhFsdm.png" alt="Hospitality & Ushering - welcoming and serving guests">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hospitality & Ushering</h3>
+                        <p>Welcoming and serving members and guests with love and excellence.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=700&q=80" alt="Media & Tech Team - supporting ministry through technology">
+                    </div>
+                    <div class="service-content">
+                        <h3>Media & Tech Team</h3>
+                        <p>Supporting the ministry through technology, sound, and online outreach.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Branches Section -->
+<section class="branches" id="branches">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Church Branches</h2>
+            <p>Find a Jesus Gospel Power Ministries location near you</p>
+            <a href="branches.html" class="btn" style="margin-top: 20px;">View All Branches</a>
+        </div>
+        
+        <div class="branches-container">
+            <!-- Branch Selection Cards -->
+            <div class="branch-cards">
+                <div class="branch-card active" data-branch="main">
+                    <div class="branch-icon">
+                        <i class="fas fa-church" aria-hidden="true"></i>
+                    </div>
+                    <h3>Main Church</h3>
+                    <p>Narok, Kenya</p>
+                </div>
+                
+                <div class="branch-card" data-branch="Nairobi">
+                    <div class="branch-icon">
+                        <i class="fas fa-church" aria-hidden="true"></i>
+                    </div>
+                    <h3>Nairobi Branch</h3>
+                    <p>Nairobi, Kenya</p>
+                </div>
+                
+                <div class="branch-card" data-branch="kisumu">
+                    <div class="branch-icon">
+                        <i class="fas fa-church" aria-hidden="true"></i>
+                    </div>
+                    <h3>Kisumu Branch</h3>
+                    <p>Kisumu, Kenya</p>
+                </div>
+                
+                <div class="branch-card" data-branch="mombasa">
+                    <div class="branch-icon">
+                        <i class="fas fa-church" aria-hidden="true"></i>
+                    </div>
+                    <h3>Mombasa Branch</h3>
+                    <p>Mombasa, Kenya</p>
+                </div>
+            </div>
+            
+            <!-- Branch Details Display -->
+            <div class="branch-details">
+                <!-- Main Church Details (default visible) -->
+                <div class="branch-info active" id="main-info">
+                    <div class="branch-header">
+                        <h3>Jesus Gospel Power Ministries - Main</h3>
+                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Narok, Kenya</p>
+                    </div>
+                    
+                    <div class="branch-leaders">
+                        <h4>Church Leaders</h4>
+                        <div class="leaders-grid">
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                                <h5>Bishop Augustine Rugutt</h5>
+                                <p>Senior Pastor & Founder</p>
+                            </div>
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/MKiptgp.png" alt="Rev Dan Chebyegon - Associate Pastor">
+                                <h5>Rev Dan chebyegon</h5>
+                                <p>Associate Pastor</p>
+                            </div>
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                                <h5>Pastor Passiany</h5>
+                                <p>Women's Ministry Leader</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="branch-services">
+                        <h4>Service Times</h4>
+                        <ul class="service-times">
+                            <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                            <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                            <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="branch-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Main Church Location Map"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Nairobi Branch Details (hidden by default) -->
+                <div class="branch-info" id="nairobi-info">
+                     <div class="branch-header">
+                        <h3>Jesus Gospel Power Ministries - Nairobi</h3>
+                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Nairobi, Kenya</p>
+                    </div>
+                    
+                    <div class="branch-leaders">
+                        <h4>Church Leaders</h4>
+                        <div class="leaders-grid">
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - Senior Pastor & Founder">
+                                <h5>Bishop Augustine Rugutt</h5>
+                                <p>Senior Pastor & Founder</p>
+                            </div>
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/MKiptgp.png" alt="Pastor Dan - Associate Pastor">
+                                <h5>Pastor Dan</h5>
+                                <p>Associate Pastor</p>
+                            </div>
+                            <div class="leader-card">
+                                <img src="https://i.imgur.com/DMeVGjJ.png" alt="Pastor Passiany - Women's Ministry Leader">
+                                <h5>Pastor Passiany</h5>
+                                <p>Women's Ministry Leader</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="branch-services">
+                        <h4>Service Times</h4>
+                        <ul class="service-times">
+                            <li><strong>Sunday Worship:</strong> 9:00 AM - 12:00 PM</li>
+                            <li><strong>Tuesday Bible Study:</strong> 5:30 PM - 7:00 PM</li>
+                            <li><strong>Friday Prayer:</strong> 6:00 AM - 7:00 AM</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="branch-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6782342345678!2d35.8601234!3d-1.096789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDUnNDguNCJTIDM1wrA1MSczNi4xIkU!5e0!3m2!1sen!2ske!4v1234567890123!5m2!1sen!2ske" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Nairobi Branch Location Map"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Kisumu Branch Details (hidden by default) -->
+                <div class="branch-info" id="kisumu-info">
+                    <!-- Similar structure as main branch -->
+                </div>
+                
+                <!-- Mombasa Branch Details (hidden by default) -->
+                <div class="branch-info" id="mombasa-info">
+                    <!-- Similar structure as main branch -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Church in Action</h2>
+                <p>See highlights from our events, outreach, and community life</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.imgur.com/b2kPpS5.png" alt="Bishop Augustine Rugutt - founder and church leader at Jesus Gospel Power Ministries">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Bishop Augustine Rugutt</h3>
+                        <p>Founder and church leader.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.imgur.com/MKiptgp.png" alt="Rev. Daniel Chebyegon - church leader at Jesus Gospel Power Ministries">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Rev. Daniel Chebyegon</h3>
+                        <p>Church leader.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                       <img src="https://i.imgur.com/DMeVGjJ.png" alt="Rev. Samuel Passiany - church leader at Jesus Gospel Power Ministries">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Rev. Samuel Passiany</h3>
+                        <p>Church leader.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.imgur.com/Q8iaCHz.png" alt="Pst. Mercellina Kodada - church leader at Jesus Gospel Power Ministries">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Pst. Mercellina Kodada</h3>
+                        <p>Church leader.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.imgur.com/d4Z3iFo.png" alt="Pst. John Njehia - church leader at Jesus Gospel Power Ministries">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Pst. John Njehia</h3>
+                        <p>Church leader.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.imgur.com/aaIEeN6.png" alt="Bishop Tumising with Bishop Rugutt at the radio station">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Bishop Tumising with Bishop Rugutt</h3>
+                        <p>At the radio station.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Year Calendar Section -->
+<section id="calendar" class="calendar-section">
+    <div class="container">
+        <h2>Events & Programme Calendar</h2>
+        <p class="section-intro">Theme: <strong>Year of Great Grace</strong> – Acts 4:33</p>
+
+        <div class="calendar-container">
+            <div class="calendar-card">
+                <h3>January – February</h3>
+                <ul class="crop-list">
+                    <li>JAN 5 – Anointing Service &amp; Lord's Table</li>
+                    <li>JAN 6–26 – 21 Days of Prayer &amp; Fasting</li>
+                    <li>JAN 26 – Anointing Service &amp; Lord's Table</li>
+                    <li>FEB 1 – Men's Breakfast</li>
+                    <li>FEB 2 – Seminar with Bishop Dr. Tuisiming</li>
+                    <li>FEB 9 – Church Workers Meeting</li>
+                    <li>FEB 23 – Couples Meeting</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>March – April</h3>
+                <ul class="crop-list">
+                    <li>MAR 1 – Prophetic Service</li>
+                    <li>MAR 2 – Church Workers Workshop</li>
+                    <li>MAR 10–14 – Prayer &amp; Fasting / Intercessors Week</li>
+                    <li>MAR 23 – Swollen Sunday</li>
+                    <li>APR 1 – Prophetic Service</li>
+                    <li>APR 8–12 – Ladies Conference</li>
+                    <li>APR 14–20 – Youth Week</li>
+                    <li>APR 21–27 – Men's Prayer Retreat</li>
+                    <li>APR 27 – Pastors Meeting</li>
+                    <li>APR 28 – MAY 4 – VBS / SS Week</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>May – June</h3>
+                <ul class="crop-list">
+                    <li>MAY 2–4 – Prophetic Service</li>
+                    <li>MAY 9 – Church Workers Workshop</li>
+                    <li>MAY 5–11 – Prayer &amp; Fasting / Dev. Committee Week</li>
+                    <li>MAY 25 – Couples Fellowship</li>
+                    <li>JUN 1 – Prophetic Service</li>
+                    <li>JUN 9–15 – Prayer &amp; Fasting / Ladies Fellowship</li>
+                    <li>JUN 15 – Couples Dinner</li>
+                    <li>JUN 22 – Swollen Sunday</li>
+                    <li>JUN 29 – Men's Fellowship</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>July – August</h3>
+                <ul class="crop-list">
+                    <li>JUL 6 – Lord's Table</li>
+                    <li>JUL 6–20 – 14 Days Prayer &amp; Fasting</li>
+                    <li>JUL 21–27 – Evangelism</li>
+                    <li>AUG 11–17 – Prophetic Service / Home Cell Leaders Week</li>
+                    <li>AUG 19–24 – National Leaders Conference</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>September – October</h3>
+                <ul class="crop-list">
+                    <li>SEP 8–14 – Prophetic Service / Protocol Week</li>
+                    <li>SEP 26–28 – Couples Seminar</li>
+                    <li>OCT 1 – Prophetic Service</li>
+                    <li>OCT 6 – Men's Breakfast</li>
+                    <li>OCT 13 – Ladies Retreat</li>
+                    <li>OCT 14–19 – Prayer &amp; Fasting / Men's Week</li>
+                    <li>OCT 27 – Couples Dining</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>November – December</h3>
+                <ul class="crop-list">
+                    <li>NOV 1 – Prophetic Service</li>
+                    <li>NOV 3–16 – Week of Fasting / Worship &amp; Choir Week</li>
+                    <li>NOV 17 – Church Workers Workshop</li>
+                    <li>NOV 23 – Evangelism</li>
+                    <li>DEC 5–6 – Thanksgiving Service</li>
+                    <li>DEC 7–8 – Prophetic Service</li>
+                    <li>DEC 9–13 – Men's Conference</li>
+                    <li>DEC 14–20 – Prayer &amp; Fasting / Ushers Week</li>
+                    <li>DEC 21 – Youth Conference</li>
+                    <li>DEC 24 – Blessing of Pastors</li>
+                    <li>DEC 25 – Christmas Carols</li>
+                    <li>DEC 31 – Crossover Kesha</li>
+                </ul>
+            </div>
+
+            <div class="calendar-card">
+                <h3>Order of Service</h3>
+                <ul class="crop-list">
+                    <li>7:00 AM – 8:45 AM: Prayers</li>
+                    <li>9:00 AM – 9:45 AM: Teachings</li>
+                    <li>9:45 AM – 10:00 AM: Break</li>
+                    <li>10:00 AM – 1:00 PM: Main Service</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Parallax Section -->
+    <section class="parallax">
+        <div class="parallax-content">
+            <h2>WELCOME TO JESUS GOSPEL POWER</h2>
+            <p>Welcome to Jesus Gospel Power ministries where Everybody is Somebody</p>
+            <a href="#contact" class="btn">New Believers</a>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Church Member Testimonials</h2>
+                <p>Hear what our members say about their experience at Jesus Gospel Power Ministries</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p>"Joining Jesus Gospel Power Ministries transformed my life. The worship is powerful, the teachings are life-changing, and the community is so welcoming. I've found my spiritual home here."</p>
+                    <h4 class="client-name">Sarah Johnson</h4>
+                    <p class="client-title">Member since 2015</p>
+                </div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p>"The youth ministry here has been a blessing to my children. They've grown in their faith and made lifelong friends. The leaders are dedicated and truly care about their spiritual growth."</p>
+                    <h4 class="client-name">Michael Brown</h4>
+                    <p class="client-title">Parent of Youth Members</p>
+                </div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p>"I was lost and broken when I first walked through these doors. Through the love and support of this church, I've found healing, purpose, and a renewed relationship with God."</p>
+                    <h4 class="client-name">David Wilson</h4>
+                    <p class="client-title">New Believer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to join us in serving Christ?</h2>
+                <p class="cta-subtitle">Welcome to Jesus Gospel Power Ministries where everybody is somebody</p>
+                
+                <div class="cta-contact-info">
+                    <a href="tel:+254715854380" class="phone-link" aria-label="Call +254 715854380">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                        <span>+254 715854380</span>
+                    </a>
+                </div>
+
+                <form class="contact-form" action="#" method="post" autocomplete="on">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="How can we help you?" required autocomplete="off"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn submit-btn" aria-label="Send Message">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Jesus Gospel Power Ministries</h3>
+                    <p class="footer-description">A vibrant, spirit-filled ministry dedicated to spreading the good news of Jesus Christ to all nations.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Ministries</h3>
+                    <ul>
+                        <li><a href="#services"><i class="fas fa-chevron-right" aria-hidden="true"></i> Outreach Ministry</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right" aria-hidden="true"></i> Worship Team</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right" aria-hidden="true"></i> Children's Ministry</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right" aria-hidden="true"></i> Youth Ministry</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right" aria-hidden="true"></i> Intercessory Prayer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about"><i class="fas fa-chevron-right" aria-hidden="true"></i> About Us</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right" aria-hidden="true"></i> Events</a></li>
+                        <li><a href="#calendar"><i class="fas fa-chevron-right" aria-hidden="true"></i> Calendar</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-chevron-right" aria-hidden="true"></i> Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Narok, Kenya</span>
+                        </li>
+                        <li>
+                            <a href="tel:+254715854380" aria-label="Call +254 715854380">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <span>+254 715854380</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@jesusgospelpowerministries.com" aria-label="Email info@jesusgospelpowerministries.com">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span>info@jesusgospelpowerministries2017@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span>24/7 Service</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Jesus Gospel Power Ministries. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Floating Button and Panel -->
+    <div class="admin-float-btn" id="adminFloatBtn" aria-label="Open Admin Panel" tabindex="0">
+        <i class="fas fa-cog" aria-hidden="true"></i>
+    </div>
+
+    <div class="admin-panel" id="adminPanel" role="dialog" aria-modal="true" aria-labelledby="adminPanelTitle">
+        <div class="admin-panel-header">
+            <h3 id="adminPanelTitle">Church Admin Panel</h3>
+            <button class="close-panel" id="closePanel" aria-label="Close Admin Panel">&times;</button>
+        </div>
+        
+        <div class="admin-tabs" role="tablist">
+            <button class="tab-btn active" data-tab="stream-tab" role="tab" aria-selected="true" aria-controls="stream-tab">Live Stream</button>
+            <button class="tab-btn" data-tab="events-tab" role="tab" aria-selected="false" aria-controls="events-tab">Events</button>
+            <button class="tab-btn" data-tab="announcements-tab" role="tab" aria-selected="false" aria-controls="announcements-tab">Announcements</button>
+        </div>
+        
+        <div class="admin-panel-body">
+            <!-- Live Stream Tab -->
+            <div class="tab-content active" id="stream-tab" role="tabpanel">
+                <div class="form-group">
+                    <label for="streamUrl">Stream URL (Embed)</label>
+                    <input type="text" id="streamUrl" placeholder="https://www.youtube.com/embed/...">
+                </div>
+                <div class="form-group">
+                    <label for="serviceTime">Service Time</label>
+                    <input type="text" id="serviceTime" placeholder="Sunday 10:00 AM">
+                </div>
+                <div class="form-group">
+                    <label for="sermonTitle">Sermon Title</label>
+                    <input type="text" id="sermonTitle" placeholder="Current sermon title">
+                </div>
+                <button class="btn" id="updateStream">Update Stream</button>
+            </div>
+            
+            <!-- Events Tab -->
+            <div class="tab-content" id="events-tab" role="tabpanel">
+                <div class="form-group">
+                    <label for="eventTitle">Event Title</label>
+                    <input type="text" id="eventTitle" placeholder="Bible Study">
+                </div>
+                <div class="form-group">
+                    <label for="eventDate">Date & Time</label>
+                    <input type="text" id="eventDate" placeholder="Wednesday 7:00 PM">
+                </div>
+                <div class="form-group">
+                    <label for="eventLocation">Location</label>
+                    <input type="text" id="eventLocation" placeholder="Main Sanctuary">
+                </div>
+                <div class="form-group">
+                    <label for="eventDescription">Description</label>
+                    <textarea id="eventDescription" placeholder="Event details..."></textarea>
+                </div>
+                <div class="btn-group">
+                    <button class="btn" id="addEvent">Add Event</button>
+                    <button class="btn btn-outline" id="clearEvents">Clear All</button>
+                </div>
+            </div>
+            
+            <!-- Announcements Tab -->
+            <div class="tab-content" id="announcements-tab" role="tabpanel">
+                <div class="form-group">
+                    <label for="announcementText">Announcement</label>
+                    <textarea id="announcementText" placeholder="Important announcement..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="announcementPriority">Priority</label>
+                    <select id="announcementPriority">
+                        <option value="normal">Normal</option>
+                        <option value="important">Important</option>
+                        <option value="urgent">Urgent</option>
+                    </select>
+                </div>
+                <div class="btn-group">
+                    <button class="btn" id="addAnnouncement">Add Announcement</button>
+                    <button class="btn btn-outline" id="clearAnnouncements">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+        const navLinks = document.getElementById('navLinks');
+        
+        if (mobileMenuBtn && mobileMenuClose && navLinks) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.add('active');
+                mobileMenuBtn.classList.add('active');
+                mobileMenuClose.classList.add('active');
+            });
+            
+            mobileMenuClose.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.classList.remove('active');
+                mobileMenuClose.classList.remove('active');
+            });
+        }
+        
+        // Header scroll effect
+        const header = document.getElementById('header');
+        if (header) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        }
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    if (navLinks) {
+                        navLinks.classList.remove('active');
+                        if (mobileMenuBtn) mobileMenuBtn.style.display = 'block';
+                        if (mobileMenuClose) mobileMenuClose.style.display = 'none';
+                    }
+                }
+            });
+        });
+        
+        // Admin Panel Functionality
+        const adminFloatBtn = document.getElementById('adminFloatBtn');
+        const adminPanel = document.getElementById('adminPanel');
+        const closePanel = document.getElementById('closePanel');
+        
+        // Simple password protection
+        const ADMIN_PASSWORD = "church123"; // Change this
+        
+        // Allow keyboard access to admin button
+        adminFloatBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                adminFloatBtn.click();
+            }
+        });
+        
+        adminFloatBtn.addEventListener('click', () => {
+            const password = prompt("Enter admin password:");
+            if (password === ADMIN_PASSWORD) {
+                adminPanel.classList.add('active');
+                loadSavedData();
+                // Focus first tab for accessibility
+                setTimeout(() => {
+                    document.querySelector('.tab-btn').focus();
+                }, 100);
+            } else if (password !== null) {
+                alert("Incorrect password");
+            }
+        });
+        
+        closePanel.addEventListener('click', () => {
+            adminPanel.classList.remove('active');
+        });
+        
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and contents
+                tabBtns.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                });
+                tabContents.forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                const tabId = btn.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Live Stream Functions
+        const updateStreamBtn = document.getElementById('updateStream');
+        const streamUrlInput = document.getElementById('streamUrl');
+        const serviceTimeInput = document.getElementById('serviceTime');
+        const sermonTitleInput = document.getElementById('sermonTitle');
+        
+        updateStreamBtn.addEventListener('click', updateStream);
+        
+        function updateStream() {
+            const streamUrl = streamUrlInput.value;
+            const serviceTime = serviceTimeInput.value;
+            const sermonTitle = sermonTitleInput.value;
+            
+            if (streamUrl) {
+                // Save to localStorage
+                localStorage.setItem('church_stream_url', streamUrl);
+                localStorage.setItem('church_service_time', serviceTime);
+                localStorage.setItem('church_sermon_title', sermonTitle);
+                
+                // Update the page
+                const iframe = document.querySelector('.live-iframe');
+                if (iframe) iframe.src = streamUrl;
+                
+                const serviceTimeDisplay = document.querySelector('.live-container h3');
+                if (serviceTimeDisplay) {
+                    serviceTimeDisplay.textContent = serviceTime ? `${serviceTime} Service` : "Join Our Live Service";
+                }
+                
+                const sermonTitleDisplay = document.querySelector('.live-container p');
+                if (sermonTitleDisplay) {
+                    sermonTitleDisplay.innerHTML = sermonTitle ? 
+                        `Current Message: <strong>\"${sermonTitle}\"</strong>` : 
+                        "Experience the power of God through our live worship services";
+                }
+                
+                alert("Live stream updated successfully!");
+            } else {
+                alert("Please enter a valid stream URL");
+            }
+        }
+        
+        // Events Functions
+        const addEventBtn = document.getElementById('addEvent');
+        const clearEventsBtn = document.getElementById('clearEvents');
+        const eventTitleInput = document.getElementById('eventTitle');
+        const eventDateInput = document.getElementById('eventDate');
+        const eventLocationInput = document.getElementById('eventLocation');
+        const eventDescriptionInput = document.getElementById('eventDescription');
+        
+        addEventBtn.addEventListener('click', addEvent);
+        clearEventsBtn.addEventListener('click', clearEvents);
+        
+        function addEvent() {
+            const title = eventTitleInput.value;
+            const date = eventDateInput.value;
+            const location = eventLocationInput.value;
+            const description = eventDescriptionInput.value;
+            
+            if (!title || !date) {
+                alert("Please fill in at least title and date");
+                return;
+            }
+            
+            // Get existing events or create new array
+            const events = JSON.parse(localStorage.getItem('church_events')) || [];
+            
+            // Add new event
+            events.push({
+                title,
+                date,
+                location,
+                description
+            });
+            
+            // Save to localStorage
+            localStorage.setItem('church_events', JSON.stringify(events));
+            
+            // Update the page
+            updateEventsDisplay();
+            
+            // Clear form
+            eventTitleInput.value = '';
+            eventDateInput.value = '';
+            eventLocationInput.value = '';
+            eventDescriptionInput.value = '';
+            
+            alert("Event added successfully!");
+        }
+        
+        function clearEvents() {
+            if (confirm("Are you sure you want to clear all events?")) {
+                localStorage.removeItem('church_events');
+                updateEventsDisplay();
+                alert("All events cleared");
+            }
+        }
+        
+        function updateEventsDisplay() {
+            // This function would update your events section on the page
+            // Implement display logic as needed
+        }
+        
+        // Announcements Functions
+        const addAnnouncementBtn = document.getElementById('addAnnouncement');
+        const clearAnnouncementsBtn = document.getElementById('clearAnnouncements');
+        const announcementTextInput = document.getElementById('announcementText');
+        const announcementPriorityInput = document.getElementById('announcementPriority');
+        
+        addAnnouncementBtn.addEventListener('click', addAnnouncement);
+        clearAnnouncementsBtn.addEventListener('click', clearAnnouncements);
+        
+        function addAnnouncement() {
+            const text = announcementTextInput.value;
+            const priority = announcementPriorityInput.value;
+            
+            if (!text) {
+                alert("Please enter announcement text");
+                return;
+            }
+            
+            // Get existing announcements or create new array
+            const announcements = JSON.parse(localStorage.getItem('church_announcements')) || [];
+            
+            // Add new announcement
+            announcements.push({
+                text,
+                priority,
+                date: new Date().toLocaleDateString()
+            });
+            
+            // Save to localStorage
+            localStorage.setItem('church_announcements', JSON.stringify(announcements));
+            
+            // Update the page
+            updateAnnouncementsDisplay();
+            
+            // Clear form
+            announcementTextInput.value = '';
+            
+            alert("Announcement added successfully!");
+        }
+        
+        function clearAnnouncements() {
+            if (confirm("Are you sure you want to clear all announcements?")) {
+                localStorage.removeItem('church_announcements');
+                updateAnnouncementsDisplay();
+                alert("All announcements cleared");
+            }
+        }
+        
+        function updateAnnouncementsDisplay() {
+            // This function would update your announcements section on the page
+            // Implement display logic as needed
+        }
+        
+        // Load saved data when page loads
+        function loadSavedData() {
+            // Load stream data
+            const savedStreamUrl = localStorage.getItem('church_stream_url');
+            const savedServiceTime = localStorage.getItem('church_service_time');
+            const savedSermonTitle = localStorage.getItem('church_sermon_title');
+            
+            if (savedStreamUrl) streamUrlInput.value = savedStreamUrl;
+            if (savedServiceTime) serviceTimeInput.value = savedServiceTime;
+            if (savedSermonTitle) sermonTitleInput.value = savedSermonTitle;
+            
+            // Load events and announcements would be handled by their respective display functions
+        }
+    </script>
+</body>
+</html>
